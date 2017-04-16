@@ -1,0 +1,58 @@
+html,body{
+    margin: 0px;
+    font-family: sans-serif;
+    background: #FFF;
+}
+a,a:visited{
+    color: inherit !important;
+    text-decoration: none;
+}
+.navi{
+    background-color: rgb(200,50,50);
+    color: white;
+    padding: 10px 7px;
+
+}
+
+header{
+    padding-bottom: 50px;
+}
+footer{
+    position: realtive;
+    top: 100%; 
+
+}
+.no-list{
+    list-style: none;
+}
+.inline{
+    list-style: none;
+    display: inline-block;
+}
+
+.pd{
+    padding-right: 50px;
+    padding-left: 80px;
+}
+.no-margin{
+    margin: 0px;
+}
+
+#logo{
+    font-size: 15px;
+    font-family: arial;
+
+}
+.center-md{
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    left: 80%;
+}
+.signup{
+    position: absolute;
+    left: 85%;
+}
+

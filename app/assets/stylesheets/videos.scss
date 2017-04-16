@@ -1,0 +1,31 @@
+// Place all the styles related to the videos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.reproductor{
+    margin: 100px;
+
+
+}
+.lista-genero{
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 10px; 
+    text-align: center;
+    height: 330px;
+}
+
+.lista-genero:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.hgeneros{
+    background: rgb(200,50,50);
+    text-align: center;
+    color:white;
+    margin: 0px;
+    font-family: arial;
+
+}

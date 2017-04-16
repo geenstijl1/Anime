@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Anime | 2017</title>
+   <link rel="icon" href="images/icono1.png">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body> 
+    <header>
+        <nav class="navi">
+            <ul class="no-list">
+                <li class="inline" id="logo"> <h1 class="no-margin">Anime</h1>            </li>
+                <li class="inline pd">     <%= link_to "Inicio", root_path %>             </li>
+                <li class="inline pd">     <%= link_to "Generos", videos_index_path  %>   </li>
+                <li class="inline pd">     <%= link_to "Imagenes", imagenes_index_path %> </li>
+                <li class="inline login">  <%= link_to "Login", login_index_path%>        </li>
+                <li class="inline signup"> <%= link_to "Sign-Up", login_index_path%>      </li>
+            </ul>
+        </nav>
+    </header>
+<%= yield %>
+
+<footer class="navi">
+    <p>Anime, ImagenesHD</p>
+</footer>
+</body>
+</html>
